@@ -17,7 +17,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
         counter <= counter+ 1;
 
     else
-        counter <= 64'de;
+        counter <= 64'd0;
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
